@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410B7C6B1DF6E1D800EA9020 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B7C691DF6E1D800EA9020 /* Item+CoreDataClass.swift */; };
 		41275A151DEEE1A2005BB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41275A141DEEE1A2005BB270 /* AppDelegate.swift */; };
-		41275A171DEEE1A2005BB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41275A161DEEE1A2005BB270 /* ViewController.swift */; };
 		41275A1A1DEEE1A2005BB270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41275A181DEEE1A2005BB270 /* Main.storyboard */; };
 		41275A1D1DEEE1A2005BB270 /* WishList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41275A1B1DEEE1A2005BB270 /* WishList.xcdatamodeld */; };
 		41275A1F1DEEE1A2005BB270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41275A1E1DEEE1A2005BB270 /* Assets.xcassets */; };
 		41275A221DEEE1A2005BB270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41275A201DEEE1A2005BB270 /* LaunchScreen.storyboard */; };
+		41275A3D1DEEF3D8005BB270 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41275A3C1DEEF3D8005BB270 /* MaterialView.swift */; };
+		4131A4291DF580EF003F53DA /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131A4281DF580EF003F53DA /* ItemDetailsVC.swift */; };
+		4131A42B1DF58503003F53DA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131A42A1DF58503003F53DA /* CustomTextField.swift */; };
+		419D07DE1DEF04C000AD4E92 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419D07DD1DEF04C000AD4E92 /* ItemCell.swift */; };
+		419D07E01DEF05E400AD4E92 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419D07DF1DEF05E400AD4E92 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410B7C691DF6E1D800EA9020 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		41275A111DEEE1A2005BB270 /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41275A141DEEE1A2005BB270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41275A161DEEE1A2005BB270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41275A191DEEE1A2005BB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41275A1C1DEEE1A2005BB270 /* WishList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishList.xcdatamodel; sourceTree = "<group>"; };
 		41275A1E1DEEE1A2005BB270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41275A211DEEE1A2005BB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41275A231DEEE1A2005BB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41275A3C1DEEF3D8005BB270 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		4131A4281DF580EF003F53DA /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		4131A42A1DF58503003F53DA /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		419D07DD1DEF04C000AD4E92 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		419D07DF1DEF05E400AD4E92 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		41275A081DEEE1A2005BB270 = {
 			isa = PBXGroup;
 			children = (
+				410B7C691DF6E1D800EA9020 /* Item+CoreDataClass.swift */,
 				41275A131DEEE1A2005BB270 /* WishList */,
 				41275A121DEEE1A2005BB270 /* Products */,
 			);
@@ -56,8 +67,9 @@
 		41275A131DEEE1A2005BB270 /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				4131A4271DF5809E003F53DA /* Controller */,
+				41275A3B1DEEF3BB005BB270 /* View */,
 				41275A141DEEE1A2005BB270 /* AppDelegate.swift */,
-				41275A161DEEE1A2005BB270 /* ViewController.swift */,
 				41275A181DEEE1A2005BB270 /* Main.storyboard */,
 				41275A1E1DEEE1A2005BB270 /* Assets.xcassets */,
 				41275A201DEEE1A2005BB270 /* LaunchScreen.storyboard */,
@@ -65,6 +77,25 @@
 				41275A1B1DEEE1A2005BB270 /* WishList.xcdatamodeld */,
 			);
 			path = WishList;
+			sourceTree = "<group>";
+		};
+		41275A3B1DEEF3BB005BB270 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41275A3C1DEEF3D8005BB270 /* MaterialView.swift */,
+				419D07DD1DEF04C000AD4E92 /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4131A4271DF5809E003F53DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				419D07DF1DEF05E400AD4E92 /* MainVC.swift */,
+				4131A4281DF580EF003F53DA /* ItemDetailsVC.swift */,
+				4131A42A1DF58503003F53DA /* CustomTextField.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41275A171DEEE1A2005BB270 /* ViewController.swift in Sources */,
+				4131A42B1DF58503003F53DA /* CustomTextField.swift in Sources */,
+				4131A4291DF580EF003F53DA /* ItemDetailsVC.swift in Sources */,
+				41275A3D1DEEF3D8005BB270 /* MaterialView.swift in Sources */,
+				419D07E01DEF05E400AD4E92 /* MainVC.swift in Sources */,
 				41275A151DEEE1A2005BB270 /* AppDelegate.swift in Sources */,
 				41275A1D1DEEE1A2005BB270 /* WishList.xcdatamodeld in Sources */,
+				410B7C6B1DF6E1D800EA9020 /* Item+CoreDataClass.swift in Sources */,
+				419D07DE1DEF04C000AD4E92 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +337,7 @@
 				41275A281DEEE1A2005BB270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
